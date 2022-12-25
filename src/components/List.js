@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 
 function List(props) {
+  let items = props.items.map((item) => <li>{item}</li>);
+
   return (
     <Fragment>
       <h3>{props.title}</h3>
-      <ul>
-        <li>item 1</li>
-      </ul>
+      <ul>{items}</ul>
     </Fragment>
   );
 }
