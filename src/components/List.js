@@ -1,7 +1,8 @@
 import { Fragment } from "react";
+import ListItem from "./ListItem";
 
 function List(props) {
-  let items = props.items.map((item) => <li>{item}</li>);
+  let items = props.items.map((item) => <ListItem text={item} />);
 
   return (
     <Fragment>
