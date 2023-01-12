@@ -6,9 +6,9 @@ function App() {
   const guitars = ["Strat", "Les Paul", "Explorer"];
   return (
     <Fragment>
-      <Navbar title="CSS and Separating JS and JSX" />
+      <Navbar title="Getting Started with State" />
       <div className="container">
-        <List title="Guitars" items={guitars} />
+        {/*<List title="Guitars" items={guitars} />*/}
       </div>
     </Fragment>
   );
